@@ -24,7 +24,7 @@ public class Board
 	}
 
 	public int getColumns()
-	{
+	{		
 		return columns;
 	}
 
@@ -48,5 +48,7 @@ public class Board
 		pieces[position.getRow()][position.getColumn()] = piece;
 		piece.position = position;
 	}
+	
+	
 	
 }
